@@ -1,4 +1,3 @@
-GNU nano 8.7.1             meal.py
 def main():
     time = input("What time is it? ")
     hours = convert(time)
