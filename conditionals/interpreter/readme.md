@@ -11,9 +11,13 @@ It calculates the result and outputs it as a float with one decimal place.
 ---
 ***Run the program with python interpreter.py***
 - Expected Outputs -->
+
                             1 + 1     → 2.0
+
                             10 - 3    → 7.0
+                            
                             2 * 4     → 8.0
+
                             10 / 4    → 2.5
 
  ---

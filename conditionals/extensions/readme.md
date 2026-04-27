@@ -18,11 +18,17 @@ The check is case-insensitive.
 
 Run the program with python extensions.py
 ***expected response and the file type give***
+
 photo.jpg      → image/jpeg
+
 image.PNG      → image/png
+
 document.pdf   → application/pdf
+
 notes.txt      → text/plain
+
 archive.zip    → application/zip
+
 
 ***Default Case***
 file           → application/octet-stream

@@ -12,12 +12,17 @@
 
 ***Run the program with python meal.py***
 - Expected Outputs:
+
                     7:30    → breakfast time
+
                     12:15   → lunch time
+
                     18:45   → dinner time
+
 - No Output if time is:
+
                         10:00
-                        
+
                         15:00
 
                         21:00
