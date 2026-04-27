@@ -19,4 +19,4 @@
 + Should Output $100 for banker replies like,good morning, what's up, customer .
  ---
 
-==The program cleans the input (removes spaces and ignores case) and checks how the greeting starts using string matching.==
+>The program cleans the input (removes spaces and ignores case) and checks how the greeting starts using string matching.
