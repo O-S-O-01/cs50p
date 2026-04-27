@@ -12,11 +12,11 @@
 
 - Run the program: with python3 bank.py
 
--[] Should Output $0 as tip for banker replies like hello, Hello dear, hello customer, because it starts with 'hello'.
++ Should Output $0 as tip for banker replies like hello, Hello dear, hello customer.
 
--[] Should Output $20 for banker replies like hi,hey, How are you because it starts with 'h'
++ Should Output $20 for banker replies like hi,hey, How are you .
 
--[] Should Output $100 for banker replies like,good morning, what's up, customer because it starts with neither 'h' or 'hello'
++ Should Output $100 for banker replies like,good morning, what's up, customer .
  ---
 
-> The program cleans the input (removes spaces and ignores case) and checks how the greeting starts using string matching.
+==The program cleans the input (removes spaces and ignores case) and checks how the greeting starts using string matching.==
