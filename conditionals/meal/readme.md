@@ -17,7 +17,9 @@
                     18:45   → dinner time
 - No Output if time is:
                         10:00
+                        
                         15:00
+
                         21:00
 ---
 > The program converts time into a numeric value and checks if it falls within specific ranges.
