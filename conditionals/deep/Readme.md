@@ -4,7 +4,7 @@
 ***This program asks the user: What is the Answer to the Great Question of Life, the Universe, and Everything?***
 
 ***It checks the user’s input and:***
-- Outputs Yes if the answer is 42, forty-two, or forty two (case-insensitive)
+- Outputs Yes if the answer is 42 forty-two, or forty two (case-insensitive)
 - Outputs No for any other input
 
 ---
