@@ -12,10 +12,13 @@ def main():
 	number = random.randint (1, level)
 
 	while True:
-		guess = input('what is your guess: ')
-		if not guess.isdigit():
+		try:
+			guess = int(input('Guess: '))
+		except ValueError:
 			continue
-		guess= int(guess)
+
+		if guess < 1:
+			continue
 
 		if guess < number:				
 			print ('Too small!')
@@ -23,7 +26,7 @@ def main():
 			print ('Too large!')
 		else:
 			print('Just right!')
-		break
+			break
 
 	
 if __name__=='__main__':

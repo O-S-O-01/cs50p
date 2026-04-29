@@ -5,7 +5,7 @@ def main():
 	names = []
 	while True:
 		try:
-			name =input('Name: ')
+			name =input(' ')
 			names.append(name)
 		except EOFError:
 			break

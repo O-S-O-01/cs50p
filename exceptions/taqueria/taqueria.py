@@ -8,12 +8,10 @@ def main():
 	total=0
 	while True:
 		try:
-			item=input('what meal do you want: ' ).title()
+			item=input('Item: ' ).title()
 			if item in meal_menu:
 				total +=meal_menu[item]
 				print(f'${total:.2f}')
-			else:
-				print('not in menu')
 		except EOFError:
 				print('\nthank you for your patronage...')
 				break
