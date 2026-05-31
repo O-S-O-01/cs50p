@@ -17,6 +17,7 @@ class Student:
 
 
     # PROPERTY: getter method (runs when you access student.house)
+    # Getter for house
     @property
     def house(self):
         # Returns the actual stored value
@@ -24,6 +25,7 @@ class Student:
 
 
     # SETTER: runs when you assign student.house = value
+    # Setter for house
     @house.setter
     def house(self, house):
 

@@ -1,3 +1,4 @@
+# Defines a Student class with an __init__ method to store name and house, takes user input for both values, creates a Student object using them, returns the object, and prints the stored attributes using dot notation.
 class Student:
     def __init__(self, name, house):
         self.name = name
